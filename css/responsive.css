@@ -1,0 +1,330 @@
+@media (max-width:1550px) {
+    .section .position-absolute {
+        bottom: 30px;
+        left: 30px;
+    }
+    .ms-left-padding {
+        padding-left: 80px;
+    }
+    .ms-right-padding {
+        padding-right: 80px;
+    }
+    .ms-left-inner-padding {
+        padding-left: 50px;
+    }
+    .hero-text {
+        font-size: 90px;
+    }
+
+    #section3 .ms-special-padding {
+        padding-left: 50px;
+        padding-right: 150px;
+    }
+
+    #section4 .ms-right-padding {
+        padding-right: 60px;
+    }
+    #section4 .ms-left-padding {
+        padding-left: 60px;
+    }
+    #section4 .client-box {
+        min-height: 340px;
+    }
+
+    #section6 .bottom-text {
+        padding-top: 10px;
+    }
+    #section6 .footer-logo {
+        width: 50%;
+    }
+}
+
+@media (max-width:1380px) {
+    .section .position-absolute {
+        bottom: 30px;
+        left: 30px;
+    }
+    .hero-text {
+        font-size: 80px;
+    }
+
+    #section3 .ms-special-padding {
+        padding-right: 130px;
+    }
+
+    #section6 .ms-margin-top {
+        margin-top: 150px;
+    }
+    #section6 hr {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:1300px) {
+    .ms-left-padding {
+        padding-left: 50px;
+    }
+    .ms-right-padding {
+        padding-right: 50px;
+    }
+    .section .position-absolute {
+        bottom: 20px;
+        left: 20px;
+    }
+
+    #section3 .ms-special-padding {
+        padding-right: 100px;
+        padding-left: 30px;
+    }
+
+    #section4 .ms-seperator {
+        padding-left: 40px;
+    }
+    #section4 .ms-seperator:after {
+        width: 30px;
+    }
+}
+
+@media (max-width:1050px) {
+    .hero-text {
+        font-size: 65px;
+    }
+
+    #section2 img {
+        padding-left: 20px;
+    }
+
+    #section3 .ms-left-padding {
+        padding-right: 80px;
+    }
+    #section3 .ms-special-padding {
+        padding-top: 60px;
+        padding-right: 80px;
+        padding-left: 60px;
+    }
+
+    #section4 .client-box {
+        margin-bottom: 30px;
+        min-height: 280px;
+    }
+
+    #section5 form {
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #section6 .ms-margin-top {
+        margin-top:400px;
+    }
+    #section6 .footer-logo {
+        width: 80%;
+    }
+}
+
+@media (max-width:780px) {
+    .hero-text {
+        font-size: 50px;
+    }
+    .ms-left-inner-padding {
+        padding-left: 30px;
+    }
+
+    #section2 img {
+        width: 65%;
+        padding-left: 0;
+        padding-bottom: 50px;
+    }
+    #section2 .ms-left-padding {
+        padding-right: 80px;
+    }
+
+    #section3 #pills-tabContent img {
+        width: 300px;
+    }
+
+    #section4 .ms-spacer-100 {
+        height: 50px;
+    }
+    #section4 h3, #mobile-four h3 {
+        font-size:24px;
+    }
+
+    #section6 h2 {
+        font-size: 50px;
+    }
+    #section6 .footer-logo {
+        width: 30%;
+        padding-bottom: 60px;
+    }
+    #section6 .ms-margin-top {
+        margin-top: 270px;
+    }
+}
+
+@media (max-width:500px) {
+    .ms-left-padding {
+        padding-left: 15px;
+    }
+    .ms-right-padding {
+        padding-right: 15px;
+    }
+    .ms-left-inner-padding {
+        padding-left: 0px;
+    }
+    /* .section .position-absolute {
+        bottom: 15px;
+        left: 5px;
+    } */
+    .social-icons {
+        bottom: 15px;
+        right: 15px;
+    }
+    .hero-text {
+        font-size: 34px;
+    }
+    p {
+        line-height: 30px;
+    }
+
+    /* header .mobile-header-logo {
+        width: 110px;
+    } */
+    
+
+    /* Mobile View Content CSS */
+    .fp-viewing-firstSection, 
+    .fp-viewing-secondSection, 
+    .fp-viewing-thirdSection, 
+    .fp-viewing-fourthSection, 
+    .fp-viewing-fifthSection, 
+    .fp-viewing-5 {
+        overflow: auto !important;
+        height: 100%;
+    }
+    #fullpage {
+        display: none;
+    }
+    #fp-nav {
+        display: none;
+    }
+    .show-mobile {
+        display: block;
+    }
+    .show-mobile .ms-anchor-tag .position-absolute {
+        bottom: 15px;
+        left: 10px;
+    }
+
+    .ms-navbar-collapse {
+        right: 0px;
+        top: 30px;
+    }
+    .ms-navbar-nav {
+        -webkit-box-orient: vertical;
+    }
+
+    #mobile-one {
+        height: 100vh;
+        align-items: center;
+        display: flex;
+    }
+    #mobile-one .hero-text {
+        font-size:40px;
+    }
+    
+    #mobile-two {
+        padding-top:80px;
+        padding-bottom: 50px;
+    }
+    #mobile-two img {
+        width: 90%;
+        padding-bottom: 50px;
+    }
+
+    #mobile-three {
+        padding-top:60px;
+        padding-bottom:60px;
+    }
+    .ms-tab-title {
+        font-size: 30px;
+    }
+    #pills-tab .nav-link {
+        margin: 0.5rem;
+    }
+
+    #mobile-four {
+        padding-top:80px;
+        padding-bottom:60px;
+    }
+    #mobile-four .ms-spacer-100 {
+        height: 40px;
+    }
+
+    #mobile-five {
+        padding-top:80px;
+        padding-bottom:60px;
+    }
+    #mobile-five form {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #mobile-six {
+        padding-bottom: 20px;
+    }
+    #mobile-six h2 {
+        font-size: 26px;
+        font-weight: 800;
+    }
+    #mobile-six h3 {
+        font-size: 24px;
+    }
+    #mobile-six p {
+        line-height: 30px;
+        color: rgba(255,255,255,0.7);
+    }
+    #mobile-six .footer-logo {
+        width: 25%;
+        padding-bottom: 20px;
+    }
+    #mobile-six .ms-margin-top {
+        margin-top:50px
+    }
+    #mobile-six .mob-pad {
+        padding-bottom: 25px;
+    }
+
+
+    
+}
+
+@media (max-width:400px) {
+    #section2 {
+        padding-top: 10px;
+    }
+    #section2 img {
+        width: 60%;
+        padding-bottom: 10px;
+    }
+
+    #section6 .footer-logo {
+        padding-bottom: 15px;
+    }
+    #section6 .ms-margin-top {
+        margin-top: 30px;
+    }
+    #section6 .mob-pad {
+        padding-bottom: 20px;
+    }
+    #section6 hr {
+        margin-bottom: 0;
+    }
+}
+
+
+@media (min-width:750px) {
+    .show-mobile {
+        display: none;
+    }
+}
